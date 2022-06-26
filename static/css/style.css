@@ -74,3 +74,19 @@ html{
     height: 250px;
     background-color: black;
 }
+
+#nav1:hover{
+    filter: blur(10px);
+}
+
+#nav2:hover{
+    filter: blur(10px);
+}
+
+#nav3:hover{
+    filter: blur(10px);
+}
+
+#nav4:hover{
+    filter: blur(10px);
+}
