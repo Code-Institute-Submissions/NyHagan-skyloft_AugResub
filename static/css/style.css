@@ -33,6 +33,38 @@ html{
 
 #mainnav{
     position;relative;
-    height: 600px;
+    height: 500px;
     margin-top: 200px;
+}
+
+#divide {
+    height: 0.01px;
+}
+
+#nav1{
+    background: url('/media/beats.jpg') no-repeat center;
+    margin-left: 200px;
+    background-size:contain;
+    height: 250px;
+}
+
+#nav2{
+    background: url('/media/hardware.jpg') no-repeat center;
+    margin-right: 200px;
+    background-size: contain;
+    height: 250px;
+}
+
+#nav3{
+    background: url('/media/about-us.jpg') no-repeat center;
+    margin-left: 200px;
+    background-size: contain;
+    height: 250px;
+}
+
+#nav4{
+    background: url('/media/offers.png') no-repeat center;
+    margin-right: 200px;
+    background-size: contain;
+    height: 250px;
 }
