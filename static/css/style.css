@@ -7,11 +7,12 @@ html{
     height: 100%;
 }
 
-@media (min-width: 1200px) {
-    .container {
-      max-width: 80%;
-    }
-  }
+#top{
+    background-color: rgb(231, 200, 152);
+    position:absolute;
+    height: 200px;
+}
+
 
   @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -25,10 +26,6 @@ html{
     .header-container {
         padding-top: 164px;
     }
-}
-
-#head {
-   position; absolute;
 }
 
 #mainnav{
