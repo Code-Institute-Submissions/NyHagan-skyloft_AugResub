@@ -5,6 +5,7 @@ body{
 
 html{
     height: 100%;
+    overflow: scroll;
 }
 
 #top{
@@ -108,7 +109,6 @@ html{
 	height: 100%;
 	width: 100%;
 	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
+	left: 0
 	z-index: -1;
+
