@@ -105,10 +105,36 @@ html{
     margin-top: 200px;
 }
 
+#conflogout{
+    position: relative;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0
 	z-index: -1;
+}
 
+#logcont{
+    margin-top: 200px;
+}
+
+#signdiv{
+    margin-top: 200px;
+}
+
+#logindiv{
+    margin-top: 200px;
+}
+
+#emailconf{
+    margin-top: 200px;
+}
+
+#verifdiv{
+    margin-top: 200px;
+}
+
+ 
