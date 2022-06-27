@@ -48,6 +48,7 @@ html{
     background-size:contain;
     height: 250px;
     background-color: black;
+    filter: blur(5px);
 }
 
 #nav2{
@@ -56,6 +57,7 @@ html{
     background-size: contain;
     height: 250px;
     background-color: black;
+    filter: blur(5px);
 }
 
 #nav3{
@@ -65,6 +67,7 @@ html{
     background-size: contain;
     height: 250px;
     background-color: black;
+    filter: blur(5px);
 }
 
 #nav4{
@@ -73,20 +76,30 @@ html{
     background-size: contain;
     height: 250px;
     background-color: black;
+    filter: blur(5px);
 }
 
 #nav1:hover{
-    filter: blur(10px);
+    text-align: center;
+    filter: none;
 }
 
 #nav2:hover{
-    filter: blur(10px);
+    text-align: center;
+    filter: none;
 }
 
 #nav3:hover{
-    filter: blur(10px);
+    text-align: center;
+    filter: none;
 }
 
 #nav4:hover{
-    filter: blur(10px);
+    text-align: center;
+    filter: none;
 }
+
+.item{
+    opacity: 1;
+}
+
