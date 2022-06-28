@@ -98,6 +98,15 @@ html{
     filter: none;
 }
 
+
+.remove-item{
+    cursor: pointer;
+}
+
+.update-link{
+    cursor: pointer;
+}
+
 .item{
     opacity: 1;
 }
