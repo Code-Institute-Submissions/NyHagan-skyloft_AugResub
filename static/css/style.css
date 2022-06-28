@@ -80,6 +80,7 @@ html{
 #nav1:hover{
     text-align: center;
     filter: none;
+    text-decoration-color: black;
 }
 
 #nav2:hover{
