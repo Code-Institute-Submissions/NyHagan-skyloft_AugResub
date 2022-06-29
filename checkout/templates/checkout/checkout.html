@@ -11,7 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
+    <div class="overlay" id="checkoutdiv"><h1>gg</h1></div>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -29,7 +29,6 @@
                         <p class="mb-1 mt-0 small text-muted">Item</p>
                     </div>
                     <div class="col-3 text-right">
-                        <p class="mb-1 mt-0 small text-muted">Subtotal</p>
                     </div>
                 </div>
                 {% for item in bag_items %}
@@ -49,7 +48,6 @@
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p class="my-0 small text-muted">${{ item.product.price }}</p>
                         </div>
                     </div>
                 {% endfor %}
