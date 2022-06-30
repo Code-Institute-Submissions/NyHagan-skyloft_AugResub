@@ -1,0 +1,17 @@
+Hello {{ order.full_name }}!
+
+Thank you for ordering with us!
+
+Your total is £{{ order.order_total }}
+
+Your order number is {{ order.order_number }} ,Ordered on {{ order.date }}
+
+We will be sending your order to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
+
+Please email {{ contact_email }} if you have any questions or issues with your order
+
+Come Again!
+
+Warm regards,
+
+Skyloft music
