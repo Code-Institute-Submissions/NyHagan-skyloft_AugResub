@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(102, 199, 211);
+    background: url('/media/colors.jpg') no-repeat center;
     height: calc(100vh - 164px);
 }
 
@@ -9,7 +9,7 @@ html{
 }
 
 #top{
-    background-color: rgb(231, 200, 152);
+    background: url('/media/space.jpg') no-repeat center;
     position:absolute;
     height: 200px;
 }
@@ -201,3 +201,10 @@ html{
     border: 1px solid #000;
 }
 
+#navlink{
+    float: right;
+}
+
+#yourbag{
+    float: right;
+}

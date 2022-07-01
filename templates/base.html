@@ -70,7 +70,7 @@
               {% endif %}
               </div>
             </li>
-            <li class="list inline-item">
+            <li class="list inline-item" id="yourbag">
               <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{%url 'view_bag'%}">
                 <div class="text-center">
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
@@ -86,18 +86,12 @@
             </li>
           </ul>
         </div>
-        <ul class="nav">
+        <ul class="nav" id="navlink">
           <li class="nav-item">
             <a class="nav-link active" href="{%url 'products'%}">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="{% url 'home'%}">Home</a>
           </li>
         </ul>
       </div>
