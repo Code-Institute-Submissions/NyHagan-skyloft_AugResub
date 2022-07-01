@@ -18,10 +18,10 @@
     <div></div>
     <div></div>
     <div class="row" id="mainnav">
-      <div class="col" id="nav1"><a href="google.com" target="_blank"><h3 class="item">BEATS</h3></a></div>
+      <div class="col" id="nav1"><a href="{%url 'beat'%}"><h3 class="item">BEATS</h3></a></div>
       <div class="col" id="nav2"><div><a href="{%url 'products'%}"><h3 class="item">HARDWARE</h3></a></div></div>
       <div class="w-100" id="divide"></div>
-      <div class="col" id="nav3"><div><a href=""><h3 class="item">ABOUT US</h3></a></div></div>
+      <div class="col" id="nav3"><div><a href="{% url 'about' %}"><h3 class="item">ABOUT US</h3></a></div></div>
       <div class="col" id="nav4"><div><a href="{%url 'blog'%}"><h3 class="item">BLOG</h3></a></div></div>
     </div>
   </div>
