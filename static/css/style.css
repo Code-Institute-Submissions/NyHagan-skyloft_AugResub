@@ -1,5 +1,5 @@
 body{
-    background: url('/media/sky.jpg') no-repeat center;
+    background: url('/media/sky.jpg') center;
     height: calc(100vh - 164px);
 }
 
@@ -80,7 +80,6 @@ html{
 #nav1:hover{
     text-align: center;
     filter: none;
-    text-decoration-color: black;
 }
 
 #nav2:hover{
@@ -214,5 +213,30 @@ html{
 }
 
 #logo{
+    color: black;
+}
+
+#user-options{
+    color: black;
+}
+
+#user-options:hover{
+    color: white;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+#navblock{
+    float: right;
+    display: inline-block;
+}
+
+.item{
     color: black;
 }
