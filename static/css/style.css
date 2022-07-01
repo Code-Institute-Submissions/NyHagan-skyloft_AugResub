@@ -240,3 +240,8 @@ html{
 .item{
     color: black;
 }
+
+#blogdiv1{
+    position:relative;
+    right: 300px;
+}
