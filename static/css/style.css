@@ -8,6 +8,13 @@ html{
     overflow: scroll;
 }
 
+#mid{
+    position: relative;
+    top:120px;
+    right: 100px;
+    
+}
+
 #top{
     background: url('/media/orange.jpg');
     position:absolute;
@@ -123,7 +130,7 @@ html{
 	width: 100%;
 	top: 0;
 	left: 0
-	z-index: -1;
+	
 }
 
 #logcont{
@@ -239,9 +246,28 @@ html{
 
 .item{
     color: black;
+    padding-top: 80px;
 }
 
 #blogdiv1{
     position:relative;
     right: 300px;
+}
+
+
+@media screen and (max-width: 320px) {
+    #nav1, #nav2, #nav3,#nav4{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top:20px
+    }
+    #mainnav{
+        margin-top:300px;
+    }
+    .row{
+        position:absolute;
+        top:500px;
+        right:50px;
+        bottom: 200px;
+    }
 }
