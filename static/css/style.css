@@ -274,4 +274,29 @@ html{
         position: relative;
         top: 50px;
     }
+    #box{
+        min-width: none;
+        position: relative;
+        right:20px;
+        top: 90px;
+    }
+
+}
+
+@media screen and (max-width: 686px) {
+    #nav1, #nav2, #nav3,#nav4{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top:20px
+    }
+    #fix{
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #box{
+        display: inline-block;
+    }
 }
