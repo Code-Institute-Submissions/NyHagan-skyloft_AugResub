@@ -274,11 +274,15 @@ html{
         position: relative;
         top: 50px;
     }
-    #box{
+    #maincard{
         min-width: none;
         position: relative;
-        right:20px;
-        top: 90px;
+        right:1px;
+        top: 100px;
+    }
+    #music{
+        position: relative;
+        right:27px;
     }
 
 }
@@ -295,8 +299,8 @@ html{
     }
 }
 
-@media screen and (max-width: 991px) {
-    #box{
+@media screen and (min-width: 500px) and (max-width: 991px) {
+    .card-group{
         display: inline-block;
     }
 }
