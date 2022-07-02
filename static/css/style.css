@@ -262,12 +262,16 @@ html{
         margin-top:20px
     }
     #mainnav{
-        margin-top:300px;
+        ;
     }
-    .row{
+    #box{
         position:absolute;
         top:500px;
         right:50px;
-        bottom: 200px;
+        bottom: 50px;
+    }
+    #fix{
+        position: relative;
+        top: 50px;
     }
 }
