@@ -1,108 +1,252 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome NyHagan,
+# Skyloft
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![App Screenshot](/media/screenshot1.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Skyloft is an interactive music focused site geared towards nusic lovers.
+It contains an ecommerce store where users can buy products. It also contains a blog where ideas are shared about music.
+This site offers a lot of value for the aspiring musician and seasoned veterans alike.
+It has multiple pages and an eye pleasing colour scheme.
+ 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience
 
-`python3 -m http.server`
+### Goals
 
-A blue button should appear to click: _Make Public_,
+### User Goals
+- As a user, I want to have my data saved so I dont have to repeat the same process eah time I buy something
+- As a user, I want to be able to easily navigate the site to find the information I need.
+- As a user, I want to see a visually appealing and responsive site.
+- As a user, I want to able to feel a sense of security.
+- As a user, I want to be able to add , edit and delete information as needed.
 
-Another blue button should appear to click: _Open Browser_.
+### Owner Goals
+- As the owner, I want my site to be easily navigated.
+- As the owner, I want my users to be able to add and remove data without any issues.
+- As the owner, I want the user to be able to log in as well as log out easily.
+- As the owner, I want the user to be able to use any device they prefer without restrictions.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Planning
 
-Another blue button should appear to click: _Open Browser_.
+I wanted a site with a high level of interactivity, hence the main page has interactivity as soon as it is loaded, I knew I wanted a sort of grid system and so used bootstrap to find and implement a grid in mt code, and then populated it with links and images as well as styled it
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframes
 
-To log into the Heroku toolbelt CLI:
+![App Screenshot](/media/wire.jpg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Design is very important to me as it is the first thing a user notices when they reach your site, A bad design may cost you visitors who may be put off.
 
-------
+### Colour scheme
+The main colour scheme for this project is Orange and Blue. I used premade background images that properly complement each other on the page.
+The header portion of the page is mainly orange, while the rest of the body is Blue.
 
-## Release History
+### Colours that were used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Orange
+- Blue
+- Black
+- Cyan
+- White
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Font
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+the font family used is :
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Arial, Helvetica, sans-serif
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+This was done to ensure maximum readability of the webpage in lieu of any potentially distracting designs regarding the font.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Responsive site that adapts to screen size
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- Ability of the user to log in and out of the site
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Ability to add and remove information
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Site can be accessed across multiple devices and browsers
 
-------
+- Visually striking and good looking site
 
-## FAQ about the uptime script
+- Ability to purchase products
 
-**Why have you added this script?**
+- Access to order history
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Ability to listen to tracks
 
-**How will this affect me?**
+- Access to a blog
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Technologies Used
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- ### Html
+This was mainly used for all my templates and the frontend.
 
-**So….?**
+- ### CSS
+Used to bring my design ideas to reality.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- ### Javascript
+This was mostly used to add interactivity to media elements like the slideshow and music player.
 
-**Can I opt out?**
+- ### Python
+This forms the core of the ecommerce and blog functionality
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Libraries/Frameworks used
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- Bootstrap
+Allowed me to be able to save time when creating commonplace elements eg. navbar
 
----
+- Django
+Django brings all the elements together into a coherent site
 
-Happy coding!
+## Programs used
+
+- Git : Allowed me to push my changes to the repository
+
+- Github : Stores my repository
+
+- Gitpod : the editor where I write my code.
+
+- MongoDB: served as the database to store information
+
+- Heroku: Deployed the finished app
+
+- Amazon Aws: My static files and other database elements are stored here
+# Running Tests
+
+ ## Validators used
+
+The validators below were used to check my cide via URL to endure there were no errors with it.
+Javascript however was checked locally.
+-  ## W3C Markup validator : no errors
+-  ## W3C CSS validator : no errors
+-  ## JSHint Javascript code quality checker: no errors
+
+ Python code also adheres to Pep8 rules.
+
+![App Screenshot](/media/valid1h.png)
+
+![App Screenshot](/media/valid2h.png)
+
+![App Screenshot](/media/valid3h.png)
+
+![App Screenshot](/media/valid4h.png)
+
+![App Screenshot](/media/valid5h.png)
+
+![App Screenshot](/media/valid1css.png)
+
+![App Screenshot](/media/valid1js.png)
+
+
+ ## Testing against my User Goals
+
+- ### As a user, I want to be able to easily navigate the site to find the information I need.
+I added a very prominent navigation bar which inidicates clearly to the user where they need to go in order to add/remove information
+
+- ### As a user, I want to see a visually appealing and responsive site.
+he site uses bright and appealing colours that also more importantly do not get in the way of the purpose of the site
+
+- ### As a user, I want to able to feel a sense of security.
+Users are able to securely log in and log out 
+
+- ### As a user, I want to be able to add , edit and delete information as needed.
+Users are able to create accounts and log in, which allows them to be able to add or make changes to the facts that are attached to each state.
+
+- ### As a user, I want to have my data saved so I dont have to repeat the same process eah time I buy something
+After making a purchase, your data is saved so you can come back and make a new purchase. your data will then be pre filled when you reach checkout
+
+
+## Testing responsiveness on multiple screen sizes
+
+Using Google chromes Ispect element, I tested the site against various screen sizes, the site has proved to be responsive within all these sizes.
+
+
+
+## BUGS
+
+site became jumbled up on screen reduction, fixed with media query in CSS
+# Deployment
+
+This Project was deployed via Heroku
+
+### Timeline
+
+- repository was created
+
+- workspace was created
+
+- django installed
+
+- the project was then worked on
+
+- Heroku app created, linked to project
+
+- AWS account created, linked to project and static files uploded
+
+
+
+## GETTING STARTED
+
+- You will need a Github account
+- find my repository by going to https://github.com/NyHagan/skyloft
+- from here you can click the green gitpod button to make yourself a copy of my repository
+
+![App Screenshot](/media/screengit.png)
+
+### Heroku
+
+- Launch Heroku and create an account
+
+- Click Create a new app and follow guidelines
+
+- Name app and choose region
+
+- Click Github and eter repository name and click connect
+
+- scroll down and enter relevant config vars
+
+![App Screenshot](/media/screenku.png)
+
+
+### AWS
+
+- Create AWS account
+- Once created, install S3 and IAM
+
+![App Screenshot](/media/screenaws.png)
+
+
+
+## Future optimisation
+
+- Ability to add information to blog
+
+- more animations
+
+- further optimisation to responsiveness
+## Support
+
+email nanaohagan@gmail for any support
+## Author
+
+Nana Hagan
+- [@NyHagan](https://github.com/NyHagan)
+## Acknowledgements
+
+- My Mentor Spencer Barriball
+
+- Code Institute
+
+- The Learning People
