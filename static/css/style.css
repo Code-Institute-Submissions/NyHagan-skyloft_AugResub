@@ -37,7 +37,7 @@ html{
 }
 
 #mainnav{
-    position;relative;
+    position:relative;
     height: 500px;
     margin-top: 200px;
 }
@@ -275,7 +275,6 @@ html{
         top: 50px;
     }
     #maincard{
-        min-width: none;
         position: relative;
         right:1px;
         top: 100px;
