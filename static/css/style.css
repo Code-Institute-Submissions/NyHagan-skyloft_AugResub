@@ -257,13 +257,14 @@ html{
 
 @media screen and (max-width: 320px) {
     #nav1, #nav2, #nav3,#nav4{
+        background: none;
         filter: none;
         margin-left: 0;
         margin-right: 0;
         margin-top:20px
     }
     #mainnav{
-        ;
+       size: 5px;
     }
     #box{
         position:absolute;
